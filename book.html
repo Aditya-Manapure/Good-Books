@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pl" dir="ltr"> 
+<head>     
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">     
+	<title>Book: Stones for the rampart</title> 
+	<link rel="icon" type="image/x-icon" href="./images/covers/icon.jpeg">
+	<meta name="description" content="Serwis internetowy dla miłośników książek"> 
+	<meta name="keywords" content="książka, recenzja, serwis, czytelnik, autor"> 
+	<meta name="author" content="Piotr"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap&subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
+	<script src="js/menu.js"></script>	
+	<script src="js/menu_mobile.js"></script>	
+	
+</head> 
+<body>
+	<div id="top_bg_book" class="book_top">
+		<header id="header" class="ghost_menu">
+			<div class="logo"><img src="images/logo.png" alt="logo" /></div>
+			<nav id="navigation" class="top_menu" >
+				<ul id="menu_navigation" class="menu" >
+					<li class=""><a href="index.html">Good Books</a></li>
+						<li><a href="book.html">Book</a></li>
+						<li class="menu_has_children" ><a href="review-page.html">Reviews</a>
+						<ul class="sub-menu">
+							<li><a href="review.html">Review1</a></li>
+							<li><a href="review.html">Review1</a><ul class="sub-menu">
+							<li><a href="review.html">Review2</a></li>
+							<li><a href="review.html">Review2</a></li>
+							<li><a href="review.html">Review3</a></li>
+						</ul></li>
+							<li><a href="review.html">Review3</a></li>
+						</ul>
+						</li>
+						<li ><a href="">Add Reviews</a></li>
+						<li><a href="contact.html">Contact</a></li>
+				</ul>		
+			</nav>
+			<a href="javascript:void(0);" class="navigation_control"><i class="icon-menu"></i></a>
+		</header>
+		<div id="parallax" class="bg"></div>
+		<div class="container">
+			<div class="book_info col_60p">
+				<h2 class="book_title">Stones for the rampart</h2>
+				<div class="book_description">
+					Aleksander Kaminski			
+				</div>
+			</div>
+			<div class="book_cover col_40p">
+				<img class="cover" alt="okładka" src="images/covers/ka.jpg" />
+			</div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="content full_width book_page">
+			<section class="book_description">
+				<h2>Description of the book</h2>
+				<div class="description">
+					<p>						
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil corrupti consectetur excepturi, enim, sequi ipsa tempora ad esse impedit aliquid rerum neque non eius totam odit debitis hic, provident voluptate!
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi nihil dignissimos sapiente distinctio eligendi unde totam itaque eveniet optio, omnis velit officiis deleniti inventore tempore facilis accusamus magnam mollitia quibusdam.
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate perspiciatis fuga recusandae neque ut necessitatibus, delectus ab, itaque quae ipsum expedita architecto? Suscipit facilis totam molestiae doloremque saepe, amet voluptatibus!
+					</p>
+					<p>
+						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, error deserunt ea blanditiis obcaecati praesentium nam voluptate nisi ratione neque repudiandae ex ad quibusdam, minus dolorem ab totam, earum autem.
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis ipsum sit recusandae excepturi facere voluptate iste non labore veritatis tempora totam repellendus, facilis modi tempore similique ex dolores exercitationem nihil.
+					</p>
+					<p>
+						Source: <a href="https://pl.wikipedia.org/wiki/Kamienie_na_szaniec">Wikipedia.org</a>
+						</p>	
+				</div>
+			</section>
+			<section  id="vote_section" class="book_vote">
+				<div class="container" >
+					<h2>Add to the shelf</h2>
+					<div class="vote_block">
+						<div class="book_vote anim_book_vote1">
+							<div class="vote_count ">
+								<div id="vote1_count" class="anim_count1">826</div>
+							</div>
+							<div class="vote_buttons">
+								<button type="button" onclick="vote(1)" id="vote1" class="anim_button1">I have read</button>
+							</div>
+
+						</div>
+						<div class="book_vote anim_book_vote2">
+							<div class="vote_count">
+								<div id="vote2_count" class="anim_count2">45</div>
+							</div>
+							<div class="vote_buttons">
+								<button type="button" onclick="vote(2)" id="vote2" class="anim_button2">I am reading</button>
+							</div>
+
+						</div>
+						<div class="book_vote anim_book_vote3">
+							<div class="vote_count">
+								<div id="vote3_count" class="anim_count3">70</div>
+							</div>
+							<div class="vote_buttons">
+								<button type="button" onclick="vote(3)" id="vote3" class="anim_button3">I want to read</button>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="icon icon-star"></div>
+			</section>
+			<section class="book_info2">
+				<h2>Information about the book</h2>
+				<div class="book_tableinfo">
+						<table>
+							<tr>
+		  						<td>Title:</td>
+		 						<td>Stones for the rampart</td>
+							</tr>
+							<tr>
+		  						<td>Type:</td>
+		 						<td><a href="#">Historical</a></td>
+							</tr>
+							<tr>
+		  						<td>Author:</td>
+		 						<td>Aleksander Kaminski</td>
+							</tr>
+							<tr>
+		  						<td>Publication date:</td>
+		 						<td>2014</td>
+							</tr>
+							<tr>
+		  						<td>Number of pages:</td>
+		 						<td>256</td>
+							</tr>
+						</table>
+					</div>
+			</section>
+			<section class="book_info_author">
+				<h2>About the author</h2>
+				<div class="author_wrap">
+					<div class="author">
+						<div class="author_img col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/PomnikAleksandraKami%C5%84skiego01.jpg/220px-PomnikAleksandraKami%C5%84skiego01.jpg" />
+							</div>
+						</div>
+						<div class="author_info col_60p">
+							<h4>Aleksander Kaminski</h4>
+							<div class="description">
+								<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis reiciendis, rerum odio id deserunt exercitationem voluptate, dolorem modi ab obcaecati eum iure inventore praesentium officiis velit rem quibusdam nostrum repudiandae.
+								</p>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+				</div>
+				
+			</section>
+			<section class="book_review">
+				<h2>Recent Reviews</h2>
+				<div class="review_wrap">
+					<div class="review">
+						<div class="review_info col_60p">
+							<h4>Quidditch years later</h4>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+							</div>
+						</div>
+						<div class="review_author col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="images/avatar/1.jpg" />
+							</div>
+							<h4>Ewelina Nowak</h4>
+						</div>
+					</div>
+					
+					<div class="review">
+						<div class="review_info col_60p">
+							<h4>Because to win you have to play!</h4>
+							<div class="description">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+							</div>
+							
+						</div>
+						<div class="review_author col_40p">
+							<div class="avatar">
+								<img alt="avatar" src="images/avatar/3.jpeg" />
+							</div>
+							<h4>Adam Konieczny</h4>
+						</div>
+					</div>
+					
+					
+				</div>
+			</section>
+
+			<section class="books">
+			
+				
+				
+				<h2>Similar books</h2>
+				
+				<div class="wrap book_main_list">
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/ka.jpg" />
+							<div class="info">
+								<h5>Stones for the rampart</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/harry.jpg" />
+							<div class="info">
+								<h5>Harry Potter and the Prisoner of Azkaban</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/pies.jpg" />
+							<div class="info">
+								<h5>There was a dog</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/naznaczeni.jpg" />
+							<div class="info">
+								<h5>Marked by death</h5>
+							</div>
+						</a>
+					</div>
+					<div class="book">
+						<a href="book.html">
+							<img class="cover" alt="okładka" src="images/covers/mitologia.jpg" />
+							<div class="info">
+								<h5>Nordycka mythology</h5>
+							</div>
+						</a>
+					</div>
+				</div>
+				
+			</section>
+
+			<div class="footer"> 2021 Created By Aditya Manapure</div>
+			
+		</div>
+			
+			
+	</div>
+
+	<script src="js/top_bg.js"></script>	
+	<script src="js/anim_js.js"></script>	
+	<script src="js/vote.js"></script>
+</body> 
+</html>   

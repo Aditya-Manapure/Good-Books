@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="pl" dir="ltr"> 
+<head>     
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">     
+	<title>Reviews</title> 
+	<link rel="icon" type="image/x-icon" href="./images/covers/icon.jpeg">
+	<meta name="description" content="Serwis internetowy dla miłośników książek"> 
+	<meta name="keywords" content="książka, recenzja, serwis, czytelnik, autor"> 
+	<meta name="author" content="Piotr"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400&display=swap&subset=latin-ext" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
+	<script src="js/menu_mobile.js"></script>	
+	<script src="js/ajax.js"></script>
+</head> 
+<body>
+	<header id="header">
+			<div class="logo"><img src="images/logo.png" alt="logo" /></div>
+			<nav id="navigation" class="top_menu" >
+				<ul id="menu_navigation" class="menu" >
+					<li class=""><a href="index.html">Good Books</a></li>
+						<li><a href="book.html">Books</a></li>
+						<li class="menu_has_children" ><a href="review-page.html">Reviews</a>
+						<ul class="sub-menu">
+							<li><a href="review.html">Review1</a></li>
+							<li><a href="review.html">Review1</a><ul class="sub-menu">
+							<li><a href="review.html">Review2</a></li>
+							<li><a href="review.html">Review2</a></li>
+							<li><a href="review.html">Review3</a></li>
+						</ul></li>
+							<li><a href="review.html">Review3</a></li>
+						</ul>
+						</li>
+						<li ><a href="">Add Reviews</a></li>
+						<li><a href="contact.html">Contact</a></li>
+				</ul>	
+			</nav>
+			<a href="javascript:void(0);" class="navigation_control"><i class="icon-menu"></i></a>
+		</header>
+	<div id="main" class="top_header">
+		<div class="content full_width" >
+			<div class="single_page_header">
+				<h2>Latest Reviews</h2>
+				<div class="controls">
+				</div>
+			</div>
+			<section class="review_list">
+				<div class="review_wrap" id="reviews" >
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/3.jpeg" />
+								</div>
+								<div class="review_text">
+									<h3>A great book about the history of Poland</h3>
+									<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum necessitatibus inventore rem officiis aliquam, quibusdam totam, adipisci aperiam dignissimos, eligendi sed placeat alias quasi. Sapiente enim velit veritatis cupiditate facere.
+									</p>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="okładka" src="images/covers/ka.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/2.jpeg" />
+								</div>
+								<div class="review_text">
+									<h3>Quidditch years later</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="okładka" src="images/covers/quidditch.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/4.jpeg" />
+								</div>
+								<div class="review_text">
+									<h3>Can you be safe at home?</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="okładka" src="images//covers/spij-spokojnie.jpg" />
+						</div>
+					</div>
+					<div class="review">
+						<div class="review_body col_60p">
+							<div class="review_info">
+								<a href="review.html">
+								<div class="avatar">
+									<img alt="avatar" src="images/avatar/1.jpg" />
+								</div>
+								<div class="review_text">
+									<h3>Because to win you have to play!</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
+								</div>
+								</a>
+							</div>
+						</div>
+						<div class="cover col_40p">
+							<img alt="okładka" src="images/covers/diabolika.jpg" />
+						</div>
+					</div>
+				</div>
+				<input class="more_review" type="button" value="Więcej recenzji" onclick="getData('reviews.txt', 'reviews')" >
+			</section>
+			<div class="footer"> 2021 Created By Aditya Manapure</div>
+		</div>
+			
+			
+	</div>
+	
+
+</body> 
+</html>   
