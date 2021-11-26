@@ -3,11 +3,11 @@
 							<div class="review_info">
 								<a href="review.html">
 								<div class="avatar">
-									<img alt="avatar" src="images/avatar/3.jpeg" />
+									<img alt="avatar" src="images/avatar/3.jpg" />
 								</div>
 								<div class="review_text">
-									<h3>Świetna książka o historii Polski</h3>
-									<p>Niedawno przeczytałem książkę pt. "Kamienie na szaniec", której autorem jest Aleksander Kamiński. Utwór ma formę zbliżoną do dokumentalnej relacji o zdarzeniach, występują w nim autentyczne postaci. Jako ciekawostkę dodam, że tytuł dzieła autor zaczerpnął od jednego...
+									<h3>Nice Book</h3>
+									<p>Lorem ipsum dolor sit amet <strong>adipisicing</strong>  elit. Veritatis laudantium rem quos dolore cumque facilis reprehenderit accusantium et nisi quam assumenda id expedita blanditiis rerum ullam sunt repellendus, ipsam pariatur?
 									</p>
 								</div>
 								</a>
@@ -22,10 +22,10 @@
 							<div class="review_info">
 								<a href="review.html">
 								<div class="avatar">
-									<img alt="avatar" src="images/avatar/2.jpeg" />
+									<img alt="avatar" src="images/avatar/2.jfif" />
 								</div>
 								<div class="review_text">
-									<h3>Quidditch po latach</h3>
+									<h3>Great Book</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...
 									</p>
 								</div>
@@ -41,10 +41,10 @@
 							<div class="review_info">
 								<a href="review.html">
 								<div class="avatar">
-									<img alt="avatar" src="images/avatar/4.jpeg" />
+									<img alt="avatar" src="images/avatar/4.jfif" />
 								</div>
 								<div class="review_text">
-									<h3>Czy w domu możesz być bezpieczny?</h3>
+									<h3>Czy Wow</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
 								</div>
 								</a>
@@ -59,10 +59,10 @@
 							<div class="review_info">
 								<a href="review.html">
 								<div class="avatar">
-									<img alt="avatar" src="images/avatar/1.jpg" />
+									<img alt="avatar" src="images/avatar/1.jpeg" />
 								</div>
 								<div class="review_text">
-									<h3>Bo żeby wygrać trzeba grać!</h3>
+									<h3>Awesom Book</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehen...</p>
 								</div>
 								</a>

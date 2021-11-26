@@ -4,9 +4,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">     
 	<title> Good Books</title> 
     <link rel="icon" type="image/x-icon" href="./images/covers/icon.jpeg">
-	<meta name="description" content="Serwis internetowy dla miłośników książek"> 
-	<meta name="keywords" content="książka, recenzja, serwis, czytelnik, autor"> 
-	<meta name="author" content="Piotr"> 
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" type="text/css" href="style.css"/>
 	<link rel="stylesheet" type="text/css" href="fontello/css/fontello.css"/>
@@ -24,20 +21,11 @@
 			<nav id="navigation" class="top_menu" >
 				<ul id="menu_navigation" class="menu" >
 					<li class=""><a href="index.html">Good Books</a></li>
-						<li><a href="book.html">Home</a></li>
-						<li class="menu_has_children" ><a href="review-page.html">Reviews</a>
-						<ul class="sub-menu">
-							<li><a href="review.html">Review1</a></li>
-							<li><a href="review.html">Review1</a><ul class="sub-menu">
-							<li><a href="review.html">Review2</a></li>
-							<li><a href="review.html">Review2</a></li>
-							<li><a href="review.html">Review3</a></li>
-						</ul></li>
-							<li><a href="review.html">Review3</a></li>
-						</ul>
-						</li>
-						<li ><a href="">Add reviews</a></li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#book">Book</a></li>
+						<li class="menu_has_children" ><a href="#review">Reviews</a>
+						
+						<li ><a href="contact.html">Add reviews</a></li>
+						<li><a href="#signup">Contact</a></li>
 				</ul>	
 			</nav>
 			<a href="javascript:void(0);" class="navigation_control"><i class="icon-menu"></i></a>
@@ -53,7 +41,7 @@
 	</div>
 	<div id="main">
 		<div class="content full_width">
-			<section class="books">
+			<section class="books" id="book">
 				<h2>Latest books</h2>
 				<div class="wrap book_main_list">
 					<div class="book">
@@ -181,7 +169,7 @@
 				</div>
 				
 			</section>
-			<section class="review_list">
+			<section class="review_list" id="review">
 				<h2>Popular Reviews</h2>
 				<div class="review_wrap" id="reviews" >
 					<div class="review">
@@ -189,7 +177,7 @@
 							<div class="review_info">
 								<a href="review.html">
 								<div class="avatar">
-									<img alt="avatar" src="images/avatar/4.jpeg" />
+									<img alt="avatar" src="images/avatar/4.jfif" />
 								</div>
 								<div class="review_text">
 									<h3>Can you be safe at home?</h3>
@@ -207,7 +195,7 @@
 							<div class="review_info">
 								<a href="review.html">
 								<div class="avatar">
-									<img alt="avatar" src="images/avatar/2.jpeg" />
+									<img alt="avatar" src="images/avatar/2.jfif" />
 								</div>
 								<div class="review_text">
 									<h3>Quidditch years later</h3>

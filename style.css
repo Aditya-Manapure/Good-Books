@@ -30,7 +30,9 @@
 }
 
 /* --------- Menu Header ----------- */
-
+*{
+	scroll-behavior: smooth;
+}
 #header {
 	position:fixed;
 	top:0;
